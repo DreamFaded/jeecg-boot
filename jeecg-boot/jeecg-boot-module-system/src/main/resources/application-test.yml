@@ -63,7 +63,7 @@ spring:
       stat-view-servlet:
         enabled: true
         loginUsername: admin
-        loginPassword: 123456
+        loginPassword: 111111
       web-stat-filter:
         enabled: true
     dynamic: 
@@ -94,13 +94,13 @@ spring:
           master: 
             url: jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false
             username: root
-            password: root
+            password: 01invincible
             driver-class-name: com.mysql.jdbc.Driver
           # 多数据源配置   
           #multi-datasource1: 
             #url: jdbc:mysql://localhost:3306/jeecg-boot2?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true
             #username: root
-            #password: root
+            #password: 01invincible
             #driver-class-name: com.mysql.jdbc.Driver
   #redis 配置
   redis:

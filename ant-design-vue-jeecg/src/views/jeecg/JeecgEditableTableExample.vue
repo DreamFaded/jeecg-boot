@@ -110,6 +110,19 @@
             validateRules: [{ required: true, message: '请选择${title}' }]
           },
           {
+<<<<<<< HEAD
+=======
+            title: '性别（字典）',
+            key: 'sex_dict',
+            width: '300px',
+            type: FormTypes.select,
+            options: [],
+            dictCode: 'sex',
+            placeholder: '请选择${title}',
+            validateRules: [{ required: true, message: '请选择${title}' }]
+          },
+          {
+>>>>>>> branch 'master' of git@github.com:zhangdaiscott/jeecg-boot.git
             title: '多选测试',
             key: 'multipleSelect',
             // width: '18%',

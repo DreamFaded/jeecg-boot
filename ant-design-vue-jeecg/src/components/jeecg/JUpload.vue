@@ -83,7 +83,15 @@
     methods:{
       initFileList(paths){
         if(!paths || paths.length==0){
+<<<<<<< HEAD
           return [];
+=======
+          //return [];
+          // update-begin- --- author:os_chengtgen ------ date:20190729 ---- for:issues:326,Jupload组件初始化bug
+          this.fileList = [];
+          return;
+          // update-end- --- author:os_chengtgen ------ date:20190729 ---- for:issues:326,Jupload组件初始化bug
+>>>>>>> branch 'master' of git@github.com:zhangdaiscott/jeecg-boot.git
         }
         let fileList = [];
         let arr = paths.split(",")
